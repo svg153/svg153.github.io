@@ -74,16 +74,6 @@
 
 /* Brand Styles
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-/* Slack */
-.button.button-slack {
-  color: #ffffff;
-  background-color: #7b16ff;
-}
-.button.button-slack:hover,
-.button.button-slack:hover:before {
-  content: "En esta comunidad, vas a poder conectarte para charlar con otros Pelades sobre temas de tecnologías como las que hablo en el canal, y consultar dudas y ayudar a los demás!";
-  white-space: initial;
-}
 
 /* Kit */
 .button.button-kit {
@@ -92,7 +82,7 @@
 }
 .button.button-kit:hover,
 .button.button-kit:hover:before {
-  content: "Aquí vas a encontrar la lista completa y actualizada de todo el hardware que uso para trabajar y hacer mis videos de YouTube.";
+  content: "All my hardware";
   white-space: initial;
 }
 
@@ -103,85 +93,11 @@
 }
 .button.button-youtube:hover,
 .button.button-youtube:hover:before {
-  content: "Este es mi segundo canal de YouTube, donde subo vlogs y contenido más personal :) No, no ese tipo de contenido.";
+  content: "YouTube";
   white-space: initial;
 }
-
-/* Slides */
-.button.button-slides {
-  color: #ffffff;
-  background-color: #212c3d;
-}
-.button.button-slides:hover,
-.button.button-slides:hover:before {
-  content: "Mis slides de cuando doy charlas en conferencias.";
-  white-space: initial;
-}
-
-/* Mercha */
-.button.button-mercha {
-  color: #000000;
-  background-color: #fffc00;
-}
-.button.button-mercha:hover,
-.button.button-mercha:hover:before {
-  content: "Esta es mi tienda de merchandising, puedes encontrar remeras/camisetas/poleras y otro tipo de cosas :)";
-  white-space: initial;
-}
-
-/* Producthunt */
-.button.button-producthunt {
-  color: #da552f;
-  border-style: solid;
-  border-color: #da552f;
-  border-width: 2px;
-  background-color: #ffffff;
-}
-.button.button-producthunt:hover,
-.button.button-producthunt:focus {
-  filter: brightness(90%);
-}
-
-/* Reddit */
-.button.button-reddit {
-  color: #000000;
-  background-color: #d7dfe2;
-}
-.button.button-reddit:hover,
-.button.button-reddit:hover:before {
-  content: "Mi subreddit, como un pequeño foro para hacer preguntas sobre mis videos o cualquier tema relacionado con el contenido de mi canal.";
-  white-space: initial;
-}
-
-/* Mail */
-.button.button-mail {
-  color: #000000;
-  background-color: #e8f3ec;
-}
-.button.button-mail:hover,
-.button.button-mail:hover:before {
-  content: "Haciendo click aquí, puedes enviarme un mail, puedo tardar en responder!";
-  white-space: initial;
-}
-
-/* Ko-Fi */
-.button.button-kofi {
-  color: #ffffff;
-  background-color: #ff5500;
-}
-.button.button-kofi:hover,
-.button.button-kofi:hover:before {
-  content: "Si quieres, puedes comprarme un cafecito usando este link.";
-  white-space: initial;
-}
-
-/* Mercha */
-.button.button-sponsors {
-  color: #000000;
-  background-color: #fffc00;
-}
-.button.button-sponsors:hover,
-.button.button-sponsors:hover:before {
-  content: "Si quieres trabajar conmigo, patrocinando algún video en mi canal, te recomiendo que leas esta página primero.";
-  white-space: initial;
+.a.icon-youtube {
+  background-color: white;
+  mask: url(https://img.icons8.com/stackoverflow) no-repeat center / contain;
+  -webkit-mask: url(https://img.icons8.com/stackoverflow) no-repeat center / contain;
 }

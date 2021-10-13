@@ -4,5 +4,19 @@ svg153 link webpage based on [littlelink](https://github.com/sethcottle/littleli
 
 ## TODO
 
-- [ ] Add acuityscheduling like [peladonerd-web](https://github.com/pablokbs/peladonerd-web)
+- [ ] Avatar
+- [ ] More links
+  - [ ] slides (speakerdeck, other?)
+  - [ ] kit.com
+  - [ ] youtube
+    - [ ] TODO video list
+    - [ ] Likes list
+    - [ ] Other?
+  - [ ] Others... check [littlelink](https://littlelink.io/)
+- [ ] Add funding and sponsor
+  - [ ] FUNDING.md
+  - [ ] kofi
+    - [ ] Add link
+- [ ] Style
 - [ ] Add Google Analytics like [peladonerd-web](https://github.com/pablokbs/peladonerd-web)
+- [ ] Add acuityscheduling like [peladonerd-web](https://github.com/pablokbs/peladonerd-web)
