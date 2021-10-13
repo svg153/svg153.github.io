@@ -5,9 +5,9 @@
   <!-- Page Information
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
-  <title>LittleLink</title>
-  <meta name="description" content="Find us online!">
-  <meta name="author" content="Seth Cottle">
+  <title>Pelado Nerd</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
 
   <!-- Mobile Specific Metas
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -20,7 +20,7 @@
   <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/skeleton-light.css">
+  <link rel="stylesheet" href="css/skeleton-dark.css">
   <link rel="stylesheet" href="css/brands.css">
 
   <!-- Favicon
@@ -53,175 +53,64 @@
         -->
 
         <!-- Your Image Here -->
-        <img src="images/avatar.png" srcset="images/avatar@2x.png 2x" alt="LittleLink Logo">
+        <style>
+          img.avatar {
+            border: 2px solid white;
+            border-radius: 50%;
+          }
+          a.small {
+            background: #1DA1F2;
+            border-radius: 50px;
+            font-size: 18px;
+            text-align: center;
+            text-decoration: none;
+            height: 48px;
+            padding: 0 16px;
+            text-align: center;
+            vertical-align: middle;
+            font-size: 18px;
+            width: 300px;
+            font-weight: 600;
+            line-height: 48px;
+            letter-spacing: 0.5px;
+            background-color: transparent;
+            border-radius: 8px;
+            cursor: pointer;
+            box-sizing: border-box;
+          }
+        </style>
+        <img src="images/avatar.png" srcset="images/avatar@2x.png 2x" class="avatar">
+
 
         <!-- Your Name -->
-        <h1>LittleLink</h1>
+        <h1>Pelado Nerd</h1>
 
         <!-- Short Bio -->
-        <p>LittleLink is an open source DIY alternative to services like <a href="https://linktr.ee" target="_blank" rel="noopener">Linktree</a> and <a href="https://many.link" target="_blank" rel="noopener">many.link</a>. LittleLink was built using <a href="http://www.getskeleton.com" target="_blank" rel="noopener">Skeleton</a>, a dead simple, responsive boilerplate—we’ve just created some branded buttons and stripped out the things you won't need. 😊</p>
+        <p>Hola. Esta es una lista de mis redes sociales para que puedas encontrarlas de forma fácil. De nada. Ah, no dijiste gracias? Bueno, no me sorprende.</p>
 
-        <!--
-
-          ## Breaking down <a> attributes:
-          
-          1.) class="button button-default" | The first "button" here is telling this <a> tag that it should make this element a button and applies the default styling in `css/brands.css`.
-          The second portion, button-default, is declaring the specific brand style you would like to apply. Here we're applying the "default" style and color.
-          If you want to make this button to use the brand colors for Discord, just change "button-default" to "button-discord". Brands are found in `css/brands.css`. You can always edit & add your own there.
-
-          2.) Replace the # in href="#" with the desired target URL for the button.
-
-          3.) target="_blank" | This attribute opens links in a new tab. Remove this attribute to prevent links from opening in a new tab.
-
-          4.) rel="noopener" | This attribute instructs the browser to navigate to the target resource without granting the new browsing context access to the document that opened it.
-          This is especially useful when opening untrusted links. https://developer.mozilla.org/en-US/docs/Web/HTML/Link_types/noopener
-
-          ## Breaking down the <img> attributes:
-          
-          1.) class="icon" | This class is telling the <img> tag that it should use the styling for icons found in `css/brands.css`.
-
-          2.) src="icons/[icon_name].svg" | This defines the icon you would like to display from the icons/ folder. For example, you can change this to src="icons/discord.svg" to use the Discord icon.
-          Add your own 24x24 icons to the "icons" folder to reference them. We recommend providing a SVG.
-
-          3.) alt="Example Logo" | This alt attribute helps provides alternate text for an image, this can assist users who use screen readers. 
-
-        -->
-
-        <!-- Github -->
-        <a class="button button-github" href="#" target="_blank" rel="noopener"><img class="icon" src="icons/github.svg" alt="GitHub Logo">GitHub</a>
-          <br>
-        
-        <!-- Twitter -->
-        <a class="button button-twitter" href="#" target="_blank" rel="noopener"><img class="icon" src="icons/twitter.svg" alt="Twitter Logo">Twitter</a>
-          <br>
-
-        <!-- Instagram -->
-        <a class="button button-instagram" href="#" target="_blank" rel="noopener"><img class="icon" src="icons/instagram.svg" alt="Instagram Logo">Instagram</a>
-          <br>
-
-        <!-- Facebook -->
-        <a class="button button-facebook" href="#" target="_blank" rel="noopener"><img class="icon" src="icons/facebook.svg" alt="Facebook Logo">Find us on Facebook</a>
-          <br>
-
-        <!-- Facebook Messenger -->
-        <a class="button button-messenger" href="#" target="_blank" rel="noopener"><img class="icon" src="icons/messenger.svg" alt="Facebook Messenger Logo">Chat on Messenger</a>
-          <br>   
-
-        <!-- LinkedIn -->
-        <a class="button button-linkedin" href="#" target="_blank" rel="noopener"><img class="icon" src="icons/linkedin.svg" alt="LinkedIn Logo">LinkedIn</a>
-          <br>
-
-        <!-- YouTube -->
-        <a class="button button-youtube" href="#" target="_blank" rel="noopener"><img class="icon" src="icons/youtube.svg" alt="YouTube Logo">YouTube</a>
-          <br> 
-
-        <!-- Discord -->
-        <a class="button button-discord" href="#" target="_blank" rel="noopener"><img class="icon" src="icons/discord.svg" alt="Discord Logo">Discord</a>
-          <br>
-
-        <!-- Twitch -->
-        <a class="button button-twitch" href="#" target="_blank" rel="noopener"><img class="icon" src="icons/twitch.svg" alt="Twitch Logo">Twitch</a>
-          <br>
-
-        <!-- ProductHunt -->
-        <a class="button button-producthunt" href="#" target="_blank" rel="noopener"><img class="icon" src="icons/producthunt.svg" alt="Product Hunt Logo">Product Hunt</a>
-         <br>
-
-        <!-- Snapchat -->
-        <a class="button button-snapchat" href="#" target="_blank" rel="noopener"><img class="icon" src="icons/snapchat.svg" alt="Snapchat Logo">Snapchat</a>
-          <br>
-
-        <!-- Spotify -->
-        <a class="button button-spotify" href="#" target="_blank" rel="noopener"><img class="icon" src="icons/spotify.svg" alt="Spotify Logo">Spotify</a>
-          <br>      
-          
-        <!-- Reddit -->
-        <a class="button button-reddit" href="#" target="_blank" rel="noopener"><img class="icon" src="icons/reddit.svg" alt="Reddit Logo">Reddit</a>
-          <br>   
-
-        <!-- Mastodon -->
-        <a class="button button-mastodon" href="#" target="_blank" rel="noopener"><img class="icon" src="icons/mastodon.svg" alt="Mastodon Logo">Mastodon</a>
-          <br>           
-
-        <!-- Medium -->
-        <a class="button button-medium" href="#" target="_blank" rel="noopener"><img class="icon" src="icons/medium.svg" alt="Medium Logo">Medium</a>
-          <br> 
-
-        <!-- Pinterest -->
-        <a class="button button-pinterest" href="#" target="_blank" rel="noopener"><img class="icon" src="icons/pinterest.svg" alt="Pinterest Logo">Follow on Pinterest</a>
-          <br>
-
-        <!-- TikTok -->
-        <a class="button button-tiktok" href="#" target="_blank" rel="noopener"><img class="icon" src="icons/tiktok.svg" alt="TikTok Logo">TikTok</a>
-          <br>
-
-        <!-- Email -->
-        <a class="button button-default" href="#" target="_blank" rel="noopener"><img class="icon" src="icons/email.svg" alt="Email Icon">hello@littlelink.io</a>
-          <br>
-
-        <!-- Email Alternative -->
-        <a class="button button-default" href="#" target="_blank" rel="noopener"><img class="icon" src="icons/email_alt.svg" alt="Email Icon">hello@littlelink.io</a>
-          <br>
-
-        <!-- SoundCloud -->
-        <a class="button button-soundcloud" href="#" target="_blank" rel="noopener"><img class="icon" src="icons/soundcloud.svg" alt="SoundCloud Logo">SoundCloud</a>
-          <br>              
-
-        <!-- Figma -->
-        <a class="button button-figma" href="#" target="_blank" rel="noopener" ><img class="icon" src="icons/figma.svg" alt="Figma Logo">Figma</a>
-          <br>
-
-        <!-- Kit -->
-        <a class="button button-kit" href="#" target="_blank" rel="noopener"><img class="icon" src="icons/kit.svg" alt="Kit Logo">Kit</a>
-          <br>          
-
-        <!-- Telegram -->
-        <a class="button button-telegram" href="#" target="_blank" rel="noopener"><img class="icon" src="icons/telegram.svg" alt="Telegram Logo">Telegram</a>
-          <br>          
-
-        <!-- Tumblr -->
-        <a class="button button-tumblr" href="#" target="_blank" rel="noopener"><img class="icon" src="icons/tumblr.svg" alt="Tumblr Logo">Tumblr</a>
-          <br>
-
-        <!-- Steam -->
-        <a class="button button-steam" href="#" target="_blank" rel="noopener"><img class="icon" src="icons/steam.svg" alt="Steam Logo">Steam</a>
-          <br>
-
-        <!-- Vimeo -->
-        <a class="button button-vimeo" href="#" target="_blank" rel="noopener"><img class="icon" src="icons/vimeo.svg" alt="Vimeo Logo">Vimeo</a>
-          <br>
-
-        <!-- PayPal-->
-        <a class="button button-paypal" href="#" target="_blank" rel="noopener"><img class="icon" src="icons/paypal.svg" alt="PayPal Logo">PayPal</a>
-        <br>
-
-        <!-- WhatsApp -->
-        <a class="button button-whatsapp" href="#" target="_blank" rel="noopener"><img class="icon" src="icons/whatsapp.svg" alt="WhatsApp Logo">WhatsApp</a>
-        <br>
-          
-        <!-- Wordpress -->
-        <a class="button button-wordpress" href="#" target="_blank" rel="noopener"><img class="icon" src="icons/wordpress.svg" alt="Wordpress Logo">Wordpress</a>
-          <br>
-
-        <!-- Goodreads -->
-        <a class="button button-goodreads" href="#" target="_blank" rel="noopener"><img class="icon" src="icons/goodreads.svg" alt="Goodreads Logo">Goodreads</a>
-          <br>
-
-        <!-- Skoob -->
-        <a class="button button-skoob" href="#" target="_blank" rel="noopener"><img class="icon" src="icons/skoob.svg" alt="Skoob Logo">Skoob</a>
-          <br>
-
-        <!-- Gitlab -->
-        <a class="button button-gitlab" href="_blank" target="_blank" rel="noopener"><img class="icon" src="icons/gitlab.svg" alt="GitLab Logo">GitLab</a>
-          <br>
-
-        <!-- XING -->
-        <a class="button button-xing" href="#" target="_blank" rel="noopener"><img class="icon" src="icons/xing.svg" alt="xing Logo">Xing</a>
-
+        <!-- Replace # with your profile URL. Delete whatever you don't need & create your own brand styles in css/brands.css -->
+        <div>
+        <a class="small button-twitter" href="https://twitter.com/pablokbs"><img class="icon" src="icons/twitter.svg"></a>
+        <a class="small button-instagram" href="https://instagram.com/pablokbs"><img class="icon" src="icons/instagram.svg"></a>
+        <a class="small button-youtube" href="https://youtube.com/peladonerd"><img class="icon" src="icons/youtube.svg"></a>
+        <a class="small button-github" href="https://github.com/pablokbs"><img class="icon" src="icons/github.svg"></a> <br>
+        </div>
         <br>
         <br>
-        <p>Build your own by forking <a href="https://littlelink.io" target="_blank" rel="noopener">LittleLink</a>.</p>
-          
+        <a class="button button-slack" href="https://slack.peladonerd.com"><img class="icon" src="icons/slack.svg">Comunidad de Slack</a> <br>
+        <a class="button button-kit" href="https://kit.co/pablokbs"><img class="icon" src="icons/kit.svg">Mi hardware</a> <br>
+        <a class="button button-youtube" href="https://youtube.com/pablokbs"><img class="icon" src="icons/youtube.svg">Mi canal de vlogs</a> <br>
+        <a class="button button-slides" href="https://speakerdeck.com/pablokbs"><img class="icon" src="icons/slides.svg">Slides</a> <br>
+        <a class="button button-mercha" href="https://merch.peladonerd.com/"><img class="icon" src="icons/tshirt.svg">Merchandising</a> <br>
+        <a class="button button-reddit" href="https://reddit.com/r/peladonerd"><img class="icon" src="icons/reddit.svg">Reddit</a>
+        <a class="button button-mail" href="mailto:pablo@peladonerd.com"><img class="icon" src="icons/mail.svg">Enviame un mail</a> <br>
+        <a class="button button-kofi" href="https://ko-fi.com/peladonerd"><img class="icon" src="icons/coffee.svg">Comprame un cafecito</a> <br>
+        <a class="button button-sponsors" href="sponsors.html"><img class="icon" src="icons/dollar.svg">Sponsorea mis videos</a> <br>
+          <br>
+        <footer>
+          <p>Código para esta página <a href="https://github.com/pablokbs/peladonerd-web">acá</a>.</p>
+        </footer>
+
       </div>
     </div>
   </div>
