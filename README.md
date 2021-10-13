@@ -1,6 +1,6 @@
-# links
+# [svg153.github.io/links](svg153.github.io/links)
 
-svg153 link webpage based on [littlelink](https://github.com/sethcottle/littlelink)
+Webpage based on [littlelink](https://github.com/sethcottle/littlelink)
 
 ## TODO
 
