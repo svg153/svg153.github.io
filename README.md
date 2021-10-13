@@ -4,7 +4,6 @@ Webpage based on [littlelink](https://github.com/sethcottle/littlelink)
 
 ## TODO
 
-- [ ] Avatar
 - [ ] More links
   - [ ] slides (speakerdeck, other?)
   - [ ] kit.com
