@@ -4,5 +4,5 @@ svg153 link webpage based on [littlelink](https://github.com/sethcottle/littleli
 
 ## TODO
 
-- [] Add acuityscheduling like [peladonerd-web](https://github.com/pablokbs/peladonerd-web)
-- [] Add Google Analytics like [peladonerd-web](https://github.com/pablokbs/peladonerd-web)
+- [ ] Add acuityscheduling like [peladonerd-web](https://github.com/pablokbs/peladonerd-web)
+- [ ] Add Google Analytics like [peladonerd-web](https://github.com/pablokbs/peladonerd-web)
