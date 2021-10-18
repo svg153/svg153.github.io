@@ -75,16 +75,15 @@
 /* Brand Styles
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
-/* Kit */
-.button.button-kit {
+/* LinkedIn */
+/* .button.button-linkedin {
   color: #ffffff;
-  background-color: #000000;
+  background-color: #2867b2;
 }
-.button.button-kit:hover,
-.button.button-kit:hover:before {
-  content: "All my hardware";
-  white-space: initial;
-}
+.button.button-linkedin:hover,
+.button.button-linkedin:focus {
+  filter: brightness(90%);
+} */
 
 /* YouTube */
 .button.button-youtube {
