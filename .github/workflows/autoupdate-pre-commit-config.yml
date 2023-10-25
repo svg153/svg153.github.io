@@ -34,4 +34,3 @@ jobs:
 
 # https://sourcegraph.com/search?q=context:global+file:.github/workflows/+lang:YAML+uses:+technote-space/create-pr-action&patternType=literal
 # https://sourcegraph.com/github.com/technote-space/get-diff-action/-/blob/.github/workflows/sync-workflows.yml?L17
-
