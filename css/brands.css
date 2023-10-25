@@ -75,6 +75,16 @@
 /* Brand Styles
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
+/* Default (this is great for your own brand color!) */
+.button.button-default {
+  color: #ffffff;
+  background-color: #2457F5;
+}
+.button.button-default:hover,
+.button.button-default:focus {
+  filter: brightness(90%);
+}
+
 /* LinkedIn */
 /* .button.button-linkedin {
   color: #ffffff;
@@ -100,3 +110,11 @@
   mask: url(https://img.icons8.com/stackoverflow) no-repeat center / contain;
   -webkit-mask: url(https://img.icons8.com/stackoverflow) no-repeat center / contain;
 }
+
+/* TikTok */
+.button.button-tiktok {
+  color: #FFFFFF;
+  background-color: #000000 }
+.button.button-tiktok:hover,
+.button.button-tiktok:focus {
+  filter: brightness(90%) }
