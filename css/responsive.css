@@ -1,0 +1,52 @@
+/* Responsive styles */
+@media (max-width: 768px) {
+  .container {
+    padding: 0 15px;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+  h2 {
+    font-size: 1.75rem;
+  }
+  h3 {
+    font-size: 1.25rem;
+  }
+  .role {
+    font-size: 1rem;
+  }
+  .skill-tag {
+    font-size: 0.9rem;
+    padding: 0.4rem 0.8rem;
+  }
+  section {
+    margin: 3rem 0;
+    padding: 1.5rem 0;
+  }
+}
+@media (max-width: 480px) {
+  h1 {
+    font-size: 1.75rem;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+  h3 {
+    font-size: 1.1rem;
+  }
+  .button {
+    font-size: 0.9rem;
+    padding: 10px 20px;
+  }
+  .social-button {
+    width: 40px;
+    height: 40px;
+  }
+  .role {
+    font-size: 0.9rem;
+  }
+  .skill-tag {
+    font-size: 0.85rem;
+    padding: 0.3rem 0.7rem;
+  }
+}

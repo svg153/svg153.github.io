@@ -1,0 +1,11 @@
+.header {
+    padding-top: 3rem;
+    margin-top: 2rem;
+}
+
+@media (max-width: 550px) {
+    .header {
+        padding-top: 2rem;
+        margin-top: 1rem;
+    }
+}

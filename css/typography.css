@@ -1,0 +1,24 @@
+/* Typography styles */
+h1, h2, h3 {
+  text-align: center;
+  width: 100%;
+  margin: 0 0 1.5rem;
+}
+h1 {
+  font-size: 2.5rem;
+  font-weight: 800;
+  letter-spacing: -0.5px;
+  margin: 1.5rem 0;
+}
+h2 {
+  font-size: 2rem;
+  color: #33C3F0;
+  font-weight: 700;
+  margin: 2rem 0 1.5rem;
+}
+h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 1.4;
+  opacity: 0.9;
+}

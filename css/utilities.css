@@ -1,0 +1,20 @@
+/* utilities.css: Helper and utility classes */
+.u-full-width {
+  width: 100%;
+  box-sizing: border-box;
+}
+.u-max-full-width {
+  max-width: 100%;
+  box-sizing: border-box;
+}
+.u-pull-right {
+  float: right;
+}
+.u-pull-left {
+  float: left;
+}
+.emoji {
+  font-family: "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-style: normal;
+  font-size: 1.2em;
+}

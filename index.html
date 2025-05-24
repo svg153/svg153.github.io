@@ -1,129 +1,199 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <!-- Meta Information
-   ---––––––––––––––––––––––––––––––––– -->
-  <meta charset="utf-8">
-  <title>Sergio Valverde</title>
-  <meta name="description" content="">
-  <meta name="author" content="">
+  <meta charset="UTF-8">
+  <meta name="author" content="Sergio Valverde">
+  <meta name="theme-color" content="#1a1a1a">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Sergio Valverde - Platform Engineer, DevOps enthusiast, and GitHub Community Spain Organizer. Expert in Developer Experience, Infrastructure as Code, and Cloud Architecture.">
+  <meta name="keywords" content="Platform Engineering, DevOps, Infrastructure as Code, GitHub, Cloud Architecture, SRE, Docker, Kubernetes">
+  <meta property="og:title" content="Sergio Valverde - Platform Engineer">
+  <meta property="og:description" content="Platform Engineer specializing in DevOps, Infrastructure as Code, and Cloud Architecture">
+  <meta property="og:image" content="images/avatar@2x.png">
+  <meta property="og:url" content="https://svg153.github.io">
+  <meta name="twitter:card" content="summary_large_image">
+  <title>Sergio Valverde - Platform Engineer & Community Builder</title>
 
-  <!-- Mobile Specific Metas
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Preload critical assets -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
 
-  <!-- FONT
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800&display=swap" rel="stylesheet">
-
-  <!-- CSS
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="stylesheet" href="css/main.css">
-  <link rel="stylesheet" href="css/normalize.css">
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/utilities.css">
   <link rel="stylesheet" href="css/skeleton-dark.css">
   <link rel="stylesheet" href="css/brands.css">
   <link rel="stylesheet" href="css/avatar.css">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/typography.css">
+  <link rel="stylesheet" href="css/buttons.css">
+  <link rel="stylesheet" href="css/sections.css">
+  <link rel="stylesheet" href="css/emoji.css">
+  <link rel="stylesheet" href="css/container.css">
+  <link rel="stylesheet" href="css/responsive.css">
 
-  <!-- Favicon
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="icon" type="image/png" href="images/avatar.png">
-
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" sizes="32x32" href="images/avatar.png">
+  <link rel="apple-touch-icon" href="images/avatar.png">
 </head>
+
 <body>
-
-  <!-- Primary Page Layout
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <div class="container">
-    <div class="row">
-      <div class="column" style="margin-top: 10%">
+    <header class="header">
+      <picture>
+        <source srcset="images/avatar@2x.png" media="(min-width: 600px)">
+        <img
+          src="images/avatar.png"
+          alt="Sergio Valverde"
+          class="avatar"
+          width="150"
+          height="150"
+        >
+      </picture>
 
-        <!-- Your Image Here -->
-        <img src="images/avatar.png" srcset="images/avatar@2x.png 2x" class="avatar">
+      <h1>Sergio Valverde</h1>
 
-        <!-- Your Name -->
-        <h1>Sergio Valverde</h1>
-        <!-- Your Title -->
-        <h3>Platform Engineer @ <a href="https://www.linkedin.com/company/lunik-explorers" target="_blank" rel="noopener">Lunik</a> & <a href="http://kutt.it/ghspain_linkedin" target="_blank" rel="noopener">GitHub Community Spain</a> Organizer</h3>
-        <p class="subtitle">Ex-Infra & DevOps Engineer | Ex-SRE | Ex-Software Engineer <br>
-           Problem Solver | Team Player | Deploy First 🚀 | AI for Work | Everything as Code</p>
+      <h2>Platform Engineer @ <a href="https://www.linkedin.com/company/lunik-explorers" target="_blank" rel="noopener">Lunik</a></h2>
+      <h2>Organizer @ <a href="http://kutt.it/ghspain_linkedin" target="_blank" rel="noopener">GitHub Community Spain</a></h2>
 
-        <!-- About Me Section -->
-        <section id="about">
-          <h2>About Me</h2>
+      <div class="role-container" aria-label="Professional roles">
+        <p class="role">Ex-Infra & DevOps Engineer | Ex-SRE | Ex-Software Engineer</p>
+        <p class="role">Problem Solver | Team Player | Deploy First <span class="emoji" role="img" aria-label="rocket">&#x1F680;</span></p>
+      </div>
+    </header>
+
+
+    <main>
+      <section id="connect" aria-labelledby="connect-title">
+        <h2 id="connect-title">Connect With Me</h2>
+        <div class="social-links" role="list">
+          <a class="social-button" href="https://github.com/svg153" target="_blank" rel="noopener"
+            aria-label="GitHub Profile">
+            <img class="icon" src="icons/github.svg" alt="" aria-hidden="true" width="20" height="20">
+          </a>
+          <a class="social-button" href="https://www.linkedin.com/in/svg153/" target="_blank" rel="noopener"
+            aria-label="LinkedIn Profile">
+            <img class="icon" src="icons/linkedin.svg" alt="" aria-hidden="true" width="20" height="20">
+          </a>
+          <a class="social-button" href="https://twitter.com/svg153" target="_blank" rel="noopener"
+            aria-label="Twitter Profile">
+            <img class="icon" src="icons/twitter.svg" alt="" aria-hidden="true" width="20" height="20">
+          </a>
+          <a class="social-button" href="https://www.tiktok.com/@svg153dev" target="_blank" rel="noopener"
+            aria-label="TikTok Profile">
+            <img class="icon" src="icons/tiktok.svg" alt="" aria-hidden="true" width="20" height="20">
+          </a>
+        </div>
+        <a class="button button-youtube button-youtube-chanel" href="https://www.youtube.com/@svg153/videos" target="_blank"
+          rel="noopener">
+          <img class="icon" src="icons/youtube-white.svg" alt="" aria-hidden="true" width="20" height="20">
+          All my YouTube videos
+        </a>
+        <a class="button button-youtube button-youtube-chanel" href="https://www.youtube.com/playlist?list=PLgDQkj9U7d6GHXdR4eGGZpeuRlm6Bb_2P" target="_blank"
+          rel="noopener">
+          <img class="icon" src="icons/youtube-white.svg" alt="" aria-hidden="true" width="20" height="20">
+          Conference Talks
+        </a>
+      </section>
+
+      <section id="about" aria-labelledby="about-title">
+        <h2 id="about-title">About Me</h2>
+        <div class="about-content">
           <p>I'm passionate about <strong>Developer Experience</strong>, <strong>DevOps</strong>, <strong>Platform Engineering</strong>, and <strong>large-scale automation</strong>. My professional journey includes roles in <strong>R&D</strong>, <strong>Software Development</strong>, <strong>SRE</strong>, and <strong>Platform Engineering</strong>, giving me a broad perspective across the entire software lifecycle.</p>
           <p>I've worked in environments ranging from <strong>agile startups</strong> to <strong>global enterprises</strong>, always focused on improving <strong>developer productivity</strong>, <strong>streamlining operations</strong>, and <strong>removing friction</strong> between teams and systems.</p>
-          <p>I thrive in <strong>collaborative environments</strong> and enjoy leading initiatives that enhance both technical and business outcomes. As an <strong>active member of the tech community</strong>, I regularly contribute through <strong>meetups</strong>, <strong>event organization</strong>, <strong>public speaking</strong>, and <strong>community building</strong>. I'm one of the organizers of <a href="http://kutt.it/ghspain_linkedin" target="_blank" rel="noopener"><strong>GitHub Community Spain</strong></a>, where we host events, talks, and live sessions showcasing the power of the GitHub platform.</p>
-        </section>
+          <p>I thrive in <strong>collaborative environments</strong> and enjoy leading initiatives that enhance both technical and business outcomes. As an <strong>active member of the tech community</strong>, I regularly contribute through <strong>meetups</strong>, <strong>event organization</strong>, <strong>public speaking</strong>, and <strong>community building</strong>.</p>
+        </div>
+      </section>
 
-        <!-- Skills Section -->
-        <section id="skills">
-          <h2>Skills & Technologies</h2>
-          <div class="skills-container">
-            <span class="skill-tag">Platform Engineering</span>
-            <span class="skill-tag">DevOps</span>
-            <span class="skill-tag">Infrastructure as Code</span>
-            <span class="skill-tag">CI/CD</span>
-            <span class="skill-tag">GitHub</span>
-            <span class="skill-tag">Docker</span>
-            <span class="skill-tag">Kubernetes</span>
-            <span class="skill-tag">Cloud Architecture</span>
-            <span class="skill-tag">Automation</span>
-            <span class="skill-tag">SRE Practices</span>
+      <section id="skills" aria-labelledby="skills-title">
+        <h2 id="skills-title">Skills & Technologies</h2>
+        <div class="skills-container" role="list">
+          <span class="skill-tag" role="listitem">Platform Engineering</span>
+          <span class="skill-tag" role="listitem">DevOps</span>
+          <span class="skill-tag" role="listitem">Infrastructure as Code</span>
+          <span class="skill-tag" role="listitem">CI/CD</span>
+          <span class="skill-tag" role="listitem">GitHub</span>
+          <span class="skill-tag" role="listitem">Docker</span>
+          <span class="skill-tag" role="listitem">Kubernetes</span>
+          <span class="skill-tag" role="listitem">Cloud Architecture</span>
+          <span class="skill-tag" role="listitem">Automation</span>
+          <span class="skill-tag" role="listitem">SRE Practices</span>
+        </div>
+      </section>
+
+      <section id="content" aria-labelledby="content-title">
+        <h2 id="content-title">My Content</h2>
+
+        <div class="content-category">
+          <h3>
+            <span class="emoji" role="img" aria-label="television">&#x1F4FA;</span>
+            Tutoriales
+          </h3>
+          <div class="content-links">
+            <a class="button button-youtube" href="https://www.youtube.com/watch?v=S8ZDYNplaGI&t=1s" target="_blank" rel="noopener">
+              <img class="icon" src="icons/youtube-white.svg" alt="" aria-hidden="true" width="20" height="20">
+              Empezar con Docker - Contenedorización, Dockerfile y tips
+            </a>
+            <a class="button button-youtube" href="https://www.youtube.com/watch?v=kbdB1aZwR08&t=497s&pp=0gcJCY0JAYcqIYzv" target="_blank" rel="noopener">
+              <img class="icon" src="icons/youtube-white.svg" alt="" aria-hidden="true" width="20" height="20">
+              Contribuir en proyectos Open Source - Rápido y Fácil
+            </a>
           </div>
-        </section>
+        </div>
 
-        <!-- Connect With Me Section -->
-        <section id="connect">
-          <h2>Connect With Me</h2>
-          <div class="social-links">
-            <a class="small" href="https://github.com/svg153" target="_blank" rel="noopener" title="GitHub"><img class="icon" src="icons/github.svg" alt="github logo"></a>
-            <a class="small" href="https://www.linkedin.com/in/svg153/" target="_blank" rel="noopener" title="LinkedIn"><img class="icon" src="icons/linkedin.svg" alt="linkedin logo"></a>
-            <a class="small" href="https://twitter.com/svg153" target="_blank" rel="noopener" title="Twitter"><img class="icon" src="icons/twitter.svg" alt="twitter logo"></a>
-            <a class="small" href="https://www.tiktok.com/@svg153dev" target="_blank" rel="noopener" title="TikTok"><img class="icon" src="icons/tiktok.svg" alt="TikTok Logo"></a>
-            <a class="small" href="https://facebook.com/svg153" target="_blank" rel="noopener" title="Facebook"><img class="icon" src="icons/facebook.svg" alt="facebook logo"></a>
+        <div class="content-category">
+          <h3>
+            <span class="emoji" role="img" aria-label="clapper">&#x1F3AC;</span>
+            Videos
+          </h3>
+          <div class="content-links">
+            <a class="button button-youtube" href="https://www.youtube.com/watch?v=jgjNDJfGzxg&t=16s" target="_blank" rel="noopener">
+              <img class="icon" src="icons/youtube-white.svg" alt="" aria-hidden="true" width="20" height="20">
+              Transformación Épica en el Desarrollo de Software | De Proyectos a Productos
+            </a>
+            <a class="button button-youtube" href="https://www.youtube.com/watch?v=b20FTPfDS8U&t=870s" target="_blank"
+              rel="noopener">
+              <img class="icon" src="icons/youtube-white.svg" alt="" aria-hidden="true" width="20" height="20">
+              Descubre GitHub Next y los nuevos proyectos de Copilot
+            </a>
+            <a class="button button-youtube" href="https://www.youtube.com/watch?v=KtVjdf2ytfo&t=57s" target="_blank"
+              rel="noopener">
+              <img class="icon" src="icons/youtube-white.svg" alt="" aria-hidden="true" width="20" height="20">
+              Increíble funcionalidad que GitHub va a dejar escapar
+            </a>
           </div>
-          <a class="button button-youtube" href="https://www.youtube.com/@svg153" target="_blank" rel="noopener"><img class="icon" src="icons/youtube-white.svg">Subscribe to my YouTube channel</a>
-        </section>
+        </div>
+        </div>
 
-        <!-- Content Section -->
-        <section id="content">
-          <h2>My Content</h2>
-
-          <div class="content-category">
-            <h3><span class="emoji">&#x1F4FA;</span> Tutorial Series</h3>
-            <div class="content-links">
-              <a class="button button-youtube" href="https://www.youtube.com/watch?v=S8ZDYNplaGI&list=PLgDQkj9U7d6FxlGzV8Eo3abtQxCbCaumM" target="_blank" rel="noopener">
-                <img class="icon" src="icons/youtube-white.svg">Docker for Beginners
-              </a>
-              <a class="button button-youtube" href="https://www.youtube.com/watch?v=eHF_Rjizu2s&list=PLgDQkj9U7d6HJ0ZAjdVR1qHiDerrgI5L8&index=23" target="_blank" rel="noopener">
-                <img class="icon" src="icons/youtube-white.svg">Repositories as Code
-              </a>
-            </div>
+        <div class="content-category">
+          <h3>
+            <span class="emoji" role="img" aria-label="microphone">&#x1F3A4;</span>
+            Conference Talks
+          </h3>
+          <div class="content-links">
+            <a class="button button-youtube" href="https://www.youtube.com/watch?v=ZMFsr6BywKs&list=PLgDQkj9U7d6GHXdR4eGGZpeuRlm6Bb_2P&index=8" target="_blank" rel="noopener">
+              <img class="icon" src="icons/youtube-white.svg" alt="" aria-hidden="true" width="20" height="20">
+             Commit Conf 2025 - Shift Left en Seguridad con GitHub Advanced Security
+            </a>
+            <a class="button button-youtube" href="https://www.youtube.com/watch?v=WGPZTPgQKfk&list=PLgDQkj9U7d6GHXdR4eGGZpeuRlm6Bb_2P&index=5" target="_blank" rel="noopener">
+              <img class="icon" src="icons/youtube-white.svg" alt="" aria-hidden="true" width="20" height="20">
+              dotNET 2024 - De código a DevPlatform: Optimizando la experiencia del desarrollador
+            </a>
+            <a class="button button-youtube" href="https://www.youtube.com/watch?v=pxjaCJeI0DQ&list=PLgDQkj9U7d6GHXdR4eGGZpeuRlm6Bb_2P&index=3" target="_blank" rel="noopener">
+              <img class="icon" src="icons/youtube-white.svg" alt="" aria-hidden="true" width="20" height="20">
+              Codely #laFunción 9x8 - Gestión de repositorios como código
+            </a>
           </div>
+        </div>
+      </section>
+    </main>
 
-          <div class="content-category">
-            <h3><span class="emoji">&#x1F3A4;</span> Conference Talks</h3>
-            <div class="content-links">
-              <a class="button button-youtube" href="https://www.youtube.com/watch?v=jgjNDJfGzxg&list=PLgDQkj9U7d6GNhnSLhWXTt-5xjAOaQ_U3" target="_blank" rel="noopener">
-                <img class="icon" src="icons/youtube-white.svg">Project to Product
-              </a>
-              <a class="button button-youtube" href="https://www.youtube.com/playlist?list=PLgDQkj9U7d6Ex9gdABUSUAf2wY1YVNqu0" target="_blank" rel="noopener">
-                <img class="icon" src="icons/youtube-white.svg">More Conference Talks
-              </a>
-            </div>
-          </div>
-        </section>
-
-         <footer>
-          <!-- When have it -->
-          <!-- <a class="small" href="https://github.com/sponsors/svg153" target="_blank" rel="noopener"><img src="https://cdn.cottle.cloud/littlelink/button-github-sponsors.svg" alt="GitHub Sponsors button"></a> -->
-        </footer>
-
-      </div>
-    </div>
+    <footer class="site-footer">
+      <p>&copy; 2025 Sergio Valverde. All rights reserved.</p>
+    </footer>
   </div>
-
-<!-- End Document
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 </body>
 </html>
