@@ -32,19 +32,19 @@ a.small {
   .button {
     font-size: 0.9em;
   }
-  
+
   .emoji {
     display: inline;
     margin-right: 5px;
   }
-  
+
   /* Responsive styles for skills section */
   .skill-tag {
     font-size: 0.85rem;
     padding: 0.25rem 0.6rem;
     margin: 0.2rem;
   }
-  
+
   h2 {
     text-align: center;
     width: 100%;
