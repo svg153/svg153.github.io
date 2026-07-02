@@ -37,3 +37,12 @@
   position: static;
   transition: none;
 }
+.button-blog {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border: 1px solid rgba(102, 126, 234, 0.4);
+  color: #fff;
+}
+.button-blog:hover {
+  background: linear-gradient(135deg, #7c8ff5 0%, #8a5db5 100%);
+  box-shadow: 0 5px 20px rgba(102, 126, 234, 0.3);
+}
