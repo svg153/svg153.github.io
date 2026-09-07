@@ -277,6 +277,27 @@ main section:last-of-type { border-bottom: none; }
   gap: 12px;
 }
 
+.social-links--compact {
+  justify-content: center;
+  gap: 14px;
+  margin: -8px 0 8px;
+}
+
+.social-link.compact {
+  border: 0;
+  padding: 6px;
+  border-radius: 6px;
+}
+.social-link.compact:hover {
+  color: var(--fg-base);
+  background: var(--bg-subtle);
+  border: 0;
+}
+.social-link.compact .social-icon {
+  width: 24px;
+  height: 24px;
+}
+
 .social-link {
   display: flex;
   align-items: center;
@@ -341,6 +362,7 @@ main section:last-of-type { border-bottom: none; }
   .newsletter-form { flex-direction: column; }
   .subscribe-btn { width: 100%; }
   .social-links { flex-direction: column; }
+  .social-links--compact { flex-direction: row; }
   .social-link { justify-content: center; }
   .footer-links { flex-wrap: wrap; gap: 12px; }
 }
