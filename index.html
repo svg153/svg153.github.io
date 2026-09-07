@@ -53,23 +53,6 @@
       <section class="content" id="content">
         <h2 class="section-title">Content</h2>
 
-        <div class="content-card blog-card">
-          <span class="card-label">Blog</span>
-          <h3 class="card-title"><a href="/blog">Sergio Valverde — Platform Engineering & DevOps Blog</a></h3>
-          <p class="card-desc">Thoughts on Platform Engineering, DevOps, and Agentic Development.</p>
-          <a href="/blog" class="card-link">Read articles →</a>
-        </div>
-
-        <div class="content-card newsletter-card">
-          <span class="card-label">Newsletter</span>
-          <h3 class="card-title">Stay in the loop</h3>
-          <p class="card-desc">Get the latest posts, tips, and insights delivered to your inbox. No spam, just content.</p>
-          <form class="newsletter-form" action="#" method="post">
-            <input type="email" placeholder="you@example.com" required class="newsletter-input" aria-label="Email address">
-            <button type="submit" class="subscribe-btn">Subscribe →</button>
-          </form>
-        </div>
-
         <div class="content-card youtube-card">
           <span class="card-label">YouTube</span>
           <h3 class="card-title"><a href="https://youtube.com/@svg153" target="_blank" rel="noopener">@svg153</a></h3>
@@ -86,6 +69,25 @@
             <li><a href="https://www.youtube.com/watch?v=pxjaCJeI0DQ" target="_blank" rel="noopener">Codely #laFunción — Gestión de repositorios como código</a></li>
           </ul>
         </div>
+        <div class="content-card blog-card">
+          <span class="card-label">Blog</span>
+          <h3 class="card-title"><a href="/blog">Sergio Valverde — Platform Engineering & DevOps Blog</a></h3>
+          <p class="card-desc">Thoughts on Platform Engineering, DevOps, and Agentic Development.</p>
+          <a href="/blog" class="card-link">Read articles →</a>
+        </div>
+
+        <!-- Newsletter temporarily disabled until a subscription endpoint is configured.
+                <div class="content-card newsletter-card">
+                  <span class="card-label">Newsletter</span>
+                  <h3 class="card-title">Stay in the loop</h3>
+                  <p class="card-desc">Get the latest posts, tips, and insights delivered to your inbox. No spam, just content.</p>
+                  <form class="newsletter-form" action="#" method="post">
+                    <input type="email" placeholder="you@example.com" required class="newsletter-input" aria-label="Email address">
+                    <button type="submit" class="subscribe-btn">Subscribe →</button>
+                  </form>
+                </div>
+        
+                -->
       </section>
 
       <section class="connect" id="connect">
@@ -104,7 +106,7 @@
             <span>X</span>
           </a>
           <a href="https://www.tiktok.com/@svg153dev" target="_blank" rel="noopener" class="social-link" aria-label="TikTok">
-            <svg class="social-icon" viewBox="0 0 24 24" width="24" height="24"><path fill="currentColor" d="M16.6 5.82s.51.5 0 0A4.278 4.278 0 0 1 15.54 3h-3.09v12.4a2.592 2.592 0 0 1-2.593 2.54c-1.28 0-2.35-.83-2.75-2h-3.1s.42 1.6 0 0c-.64 1.75-2.36 3-4.38 3A4.39 4.39 0 0 1 0 16.58c0-2.04 1.38-3.75 3.25-4.25.25-.07.5-.07.75-.07V6.82A5.786 5.786 0 0 0 0 6.5 6.5 6.5 0 0 0 6.4 12.68c.14 0 .28-.01.42-.04V21a4.4 4.4 0 0 0 4.1 3.5 4.3 4.3 0 0 0 4.3-4.3V9.3a7.4 7.4 0 0 0 4.4 1.42V7.68a4.3 4.3 0 0 1-.62-.04V5.82z"/></svg>
+            <img class="social-icon" src="icons/tiktok.svg" alt="">
             <span>TikTok</span>
           </a>
           <a href="https://youtube.com/@svg153" target="_blank" rel="noopener" class="social-link" aria-label="YouTube">
@@ -122,8 +124,11 @@
         <a href="https://linkedin.com/in/svg153/" target="_blank" rel="noopener">LinkedIn</a>
         <a href="https://twitter.com/svg153" target="_blank" rel="noopener">X</a>
       </div>
-      <p class="copyright">&copy; 2025 Sergio Valverde</p>
+      <p class="copyright">&copy; <span id="copyright-year">2026</span> Sergio Valverde</p>
     </footer>
   </div>
+  <script>
+    document.getElementById('copyright-year').textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
