@@ -39,6 +39,13 @@ The repository must use **GitHub Actions** as the Pages build and deployment
 source in the repository's Pages settings. The workflow only publishes the
 contents of this repository; it does not build or copy another project.
 
+## Professional profile data
+
+Public current-state professional fields are proposed in [`profile.json`](profile.json).
+The integration plan and historical-content guardrails are documented in
+[`docs/profile-synchronization.md`](docs/profile-synchronization.md). The other
+sites are **not yet synchronized automatically**.
+
 ## Repository structure
 
 | Path | Purpose |
