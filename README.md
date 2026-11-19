@@ -1,7 +1,8 @@
 # svg153.github.io
 
-Personal website of [Sergio Valverde](https://svg153.github.io), focused on
-Platform Engineering, DevOps, GitHub, automation and technology communities.
+Personal website of [Sergio Valverde](https://svg153.github.io), focused on developer platforms, GitHub, DevEx, AI-assisted software delivery
+and technology communities. Current professional positioning:
+**Developer Platforms & AI SDLC Architect @ Accenture**.
 
 The site is a dependency-free static website made with HTML, CSS and local
 assets. It contains a short profile, technical interests, links to the blog,
