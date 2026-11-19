@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "updated_on": "2026-11-19",
+  "identity": {
+    "display_name": "Sergio Valverde García",
+    "handle": "svg153",
+    "website": "https://svg153.github.io"
+  },
+  "positioning": {
+    "headline": "Developer Platforms & AI SDLC Architect @ Accenture",
+    "role": "Developer Platforms & AI SDLC Architect",
+    "bio_en": "I design developer platforms and engineering workflows that help teams build, secure and deliver software. My background spans software engineering, SRE, DevOps and platform engineering. Today, I focus on Developer Experience, GitHub Enterprise, CI/CD, engineering governance, and bringing AI agents into the software development lifecycle responsibly.",
+    "bio_es": "Diseño plataformas y flujos de ingeniería que ayudan a los equipos a desarrollar, proteger y entregar software. Mi trayectoria combina ingeniería de software, SRE, DevOps y platform engineering. Mi foco actual es Developer Experience, GitHub Enterprise, CI/CD, gobernanza y la integración responsable de agentes de IA en el ciclo de vida del software."
+  },
+  "employment": {
+    "current": {
+      "employer": "Accenture",
+      "corporate_title": "Custom Software Engineering Manager",
+      "started": "2026-09"
+    },
+    "previous": [
+      {
+        "employer": "Lunik",
+        "role": "Platform Engineer",
+        "started": "2024-12",
+        "ended_month_to_verify": "2026-09"
+      }
+    ]
+  },
+  "community": [
+    "GitHub Star",
+    "GitHub Community Spain organizer"
+  ],
+  "governance": {
+    "scope": "Current profile and future-facing biographies only; do not rewrite historical talks, event submissions, or past role descriptions.",
+    "sync_status": "Source proposed; downstream sites and private CV files require explicit synchronization. No automatic deployment is configured."
+  }
+}
